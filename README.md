@@ -6,7 +6,7 @@ This is an assisting repository for the published paper investigating ensemble m
 
 <img src="http://i.imgur.com/3pIAHxp.png" />
 
-Figure 1: The graph above shows the cumulative returns of each of the three algorithms when working with 100 automatically selected stocks (selected at the start of each month) and using one classifier to predict the trading stocks.
+<center> <sub> Figure 1: The graph above shows the cumulative returns of each of the three algorithms when working with 100 automatically selected stocks (selected at the start of each month) and using one classifier to predict the trading stocks. </sub>  </center>
 
 The graph above can be produced by following the series of steps outlined by the Quantopian API. We being by initializing the simulator with both machine learning specific variables and stock trading specific variables.
 
@@ -219,7 +219,7 @@ def trade(context, data):
 
 
 
-Table 1: The table below compares the average values of the alpha and beta coefficients over 12-month periods for each of the three classification methods when used in simulation over the time-period 2010 to 2015.
+<center> <sub> Table 1: The table below compares the average values of the alpha and beta coefficients over 12-month periods for each of the three classification methods when used in simulation over the time-period 2010 to 2015. </sub> </center>
 
 
 
@@ -231,7 +231,7 @@ Table 1: The table below compares the average values of the alpha and beta coeff
 |      Gradient Boosting Classifier     |          0.62         |          1.37          |          1.74         |          4.70          |
 
 
-Table 2: The table below compares the average values of the Sharpe, Sortino and Information ratios over 12-month periods for each of the three classification methods when used in simulation over the time-period 2010 to 2015.
+<center> <sub> Table 2: The table below compares the average values of the Sharpe, Sortino and Information ratios over 12-month periods for each of the three classification methods when used in simulation over the time-period 2010 to 2015. </sub> </center>
 
 
 |                                       |      Sharpe Ratio     |      Sharpe Ratio      |     Sortino Ratio     |      Sortino Ratio     |   Information Ratio   |    Information Ratio   |
@@ -242,7 +242,7 @@ Table 2: The table below compares the average values of the Sharpe, Sortino and 
 |      Gradient Boosting Classifier     |          3.61         |          3.84          |          5.28         |          5.73          |          0.15         |          0.13          |
 
 
-Table 3: The table below compares the average values of the volatility and maximum draw-down indicators over 12-month periods for each of the three classification methods when used in simulation over the time-period 2010 to 2015.
+<center> <sub> Table 3: The table below compares the average values of the volatility and maximum draw-down indicators over 12-month periods for each of the three classification methods when used in simulation over the time-period 2010 to 2015. </sub> </center>
 
 
 |                                       |       Volatility      |       Volatility       |   Maximum Draw-down   |    Maximum Draw-down   |
